@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-webpack-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index_bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
